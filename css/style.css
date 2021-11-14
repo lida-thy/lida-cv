@@ -1,5 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
 body{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     font-family: sans-serif;
+    background:#c98585ad;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.img-1{
+    width: 69px;
+    height: 17vh;
+    clip-path: circle(50% at 50% 50%);
+    margin: 5px;
+}
+.logo img{
+    width: 100%;
+    margin-top: 0;
+}
+input[type="search"]{
+    height: 6vh;
+    width: 40%;
+    margin-top: 10px;
+    border-radius:15px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    height: 115vh;
+}
+hr{
+    border: 1px solid black;
+    background: black;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+}
+li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.87);
+}
+li{
+    list-style: none;
+    padding: 5px;
+    background-color: black;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+}
+.active{
+    background: rgb(146, 104, 104);
+}
+.nav h3{
+    color: rgba(0, 0, 0, 0.712);
+    margin-left: 30px;
+}
+.home{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    font-size:1rem;
+    height: 111vh;
+}
+img{
+    width: 50%;
+
+}
+.home-1{
+    width: 80%;
+    background: #2B826D;
+    color: #fff;
+}
+.home a{
+    text-decoration: none;
+}
+.home-1 h2{
+   margin-top: 70px;
+   text-align: center;
+   padding: 10px;
+}
+span{
+    font-size: 10px;
+}
+.town{
+    width: 30%;
+    height:6vh;
+    background: #121111a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    font-family: 'Yantramanav', sans-serif;
+
+}
+.town a{
+    color: white;
+}
+.home-1 p{
+    font-size: 15px;
+    font-family: 'Yantramanav', sans-serif;
+    padding: 20px;
+}
+.home-1 a{
+    display: flex;
+    justify-content:center;
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.979);
+    width: 100%;
+    margin: auto;
+    height: 12vh;
+}
+.icon{
+    text-align: center;
+}
+.fa{
+    padding: 10px;
+    width: 5%;
+}
+.fa-facebook-square{
+    color: rgba(29, 144, 179, 0.863);
+}
+.fa-instagram{
+    color: rgb(165, 70, 7);
+}
+.fa-phone-square{
+    color: green;
+}
+.fa-telegram{
+    color: aqua;
+}
+/* #############################3 */
+.container-1{
+    width:85%;
+    height: 115vh;
+    background: url(../image/education.jpg);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.mainbox{
+    width: 100%;
+    height:70vh ;
+    background: #1f1a1a41;
+    color: rgba(255, 255, 255, 0.781);
+    text-align: center;
+}
+.box{
+    display: flex;
+    width: 70%;
+    height: 45vh;
+    margin: auto;
+}
+.box p{
+    font-size: 0.8rem;
+    margin: 10px;
+}
+.box-1,.box-2,.box-3{
+    margin: 10px;
+    padding: 8px;
+    background: #1211119a;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    box-shadow: rgba(241, 238, 238, 0.233) 0px 5px 15px;
+}
+.mainbox h1{
+    font-size:1.5rem;
+    padding: 8px;
+    text-shadow: 5px 5px #c3cbd356;
+}
+.nav-1{
+    display: flex;
+    justify-content: flex-end;
+}
+/* #################################### */
+.container-2{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+}
+.mainbox-2{
+   width: 100%;
+}
+.img-p{
+    width: 90%;
+    height: 40vh;
+    margin: 10px;
+    display: flex;
+}
+.img-p img{
+    width: 60%;
+    height: 40vh;
+}
+/* ############################################### */
+.container-3{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+}
+.sub-container{
+    width: 100%;
+    display: flex;
+}
+.img-3{
+    width:40%;
+    height: 40vh;
+    background: url(../image/favorite.png);
+    background-size: cover;
+    background-position-y: center;
+}
+.text-3{
+    width: 60%;
+    margin: 10px;
+}
+.text-3 h4{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Yantramanav', sans-serif;
+}
+.sub-container-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.favorite-1{
+    width:15%;
+    text-align: center;
+    margin:15px;
+}
+.favorite-1 img{
+    width: 100%;
+    height: 15vh;
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+}
+.favorite-1 h5{
+    font-size: 0.9rem;
 }
