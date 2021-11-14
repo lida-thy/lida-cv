@@ -12,6 +12,12 @@ body{
     justify-content:space-between;
     align-items: center;
 }
+.btndownload{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.602);
+    margin-right: 10px;
+    border-radius: 5px;
+}
 .img-1{
     width: 69px;
     height: 17vh;
@@ -21,12 +27,6 @@ body{
 .logo img{
     width: 100%;
     margin-top: 0;
-}
-input[type="search"]{
-    height: 6vh;
-    width: 40%;
-    margin-top: 10px;
-    border-radius:15px;
 }
 .container{
     width: 80%;
@@ -92,6 +92,10 @@ img{
    margin-top: 70px;
    text-align: center;
    padding: 10px;
+}
+.home-1 br{
+    margin-top: 20px;
+    margin-left: 10%;
 }
 span{
     font-size: 10px;
@@ -194,22 +198,26 @@ footer{
 }
 /* #################################### */
 .container-2{
-    width: 80%;
-    height: 70vh;
+    width: 85%;
     margin: auto;
 }
 .mainbox-2{
    width: 100%;
+   display: flex;
+   height: 70vh;
 }
 .img-p{
-    width: 90%;
-    height: 40vh;
-    margin: 10px;
-    display: flex;
+    width: 60%;
+    height: 50vh;
 }
 .img-p img{
-    width: 60%;
-    height: 40vh;
+    width: 90%;
+    height: 50vh;
+}
+.img-p p{
+   margin: 10px;
+   font-weight: bold;
+   color: rgba(0, 0, 0, 0.856);
 }
 /* ############################################### */
 .container-3{
@@ -256,4 +264,52 @@ footer{
 }
 .favorite-1 h5{
     font-size: 0.9rem;
+}
+/* #################################### */
+.container-5{
+    width: 90%;
+    margin: auto;
+}
+.sub-container-5{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+.map{
+    width: 50%;
+    height: 70vh;
+}
+form{
+    width: 50%;
+    text-align: center;
+    height: 70vh;
+    background: rgba(245, 222, 179, 0.322);
+    margin-left: 15px;
+    
+}
+iframe{
+    width: 100%;
+    height: 70vh;
+}
+form input{
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 40px;
+}
+textarea{
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    width: 25%;
+    border-radius: 10px;
+    background: #0F1251;
+    color: white;
+}
+form h3{
+    color:#041e5f;
+    margin-top: 0;
 }
